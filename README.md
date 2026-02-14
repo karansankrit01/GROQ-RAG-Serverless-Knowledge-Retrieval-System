@@ -71,8 +71,7 @@ The notebook (`GROQ_RAG_Serverless_Knowledge_Retrieval_System.ipynb`) provides a
 ## Architecture
 
 ```
-<img width="3163" height="613" alt="The _Architecture Flow_ Diagram (Highly Recommended) - visual selection (1)" src="https://github.com/user-attachments/assets/34759cab-3255-4b1c-8c4c-ac9f75ebbd07" />
-
+User Query → Embedding Model (HuggingFace) → Vector Store (ChromaDB) → Retriever (Fetch Context) → LLM (Groq) → Final Answer
 ```
 
 ## Technologies Used
@@ -134,4 +133,5 @@ For issues or questions:
 ---
 
 **Happy Retrieving! 🚀**
+
 
